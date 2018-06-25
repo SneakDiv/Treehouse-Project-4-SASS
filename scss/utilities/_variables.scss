@@ -1,11 +1,53 @@
 // ==========================================================================
 // Variables
-// ==========================================================================
+//==========================================================================
+
+// Fonts
+
+$font-url--google       :"https://fonts.googleapis.com/css?family=Poiret+One|Quicksand:400,500,700";
+$font-family--primary   : 'Quicksand', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+$font-family--secondary : 'Poiret One', Helvetica, Arial, 'sans-serif';
+
+
+// Font Weights
+
+$font-weight--regular    : 400;
+$font-weight--medium     : 500;
+$font-weight--bold       : 700;    
 
 // Base Colours
 
-$white            :#FFF;
-$oxford-blue      :#324A51;
-$electric-blue    :#1bc4b9;
-$lipstick         :#db006d;
-$gradient         :linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+$white                  : #FFF;
+$black                  : #0b0b0b;
+$mystic                 : #e5edf0;
+$oxford-blue            : #324A51;
+$electric-blue          : #1bc4b9;
+$lipstick               : #db006d;
+$japanese-laurel        : #009700;
+$bondi-blue             : #0094ad;
+$studio                 : #8859b1;
+$pumpkin                : #ff7823;
+$red                    : #f91209;
+                   
+
+
+//Colour Usage
+$color-primary          : $electric-blue;
+$color-secondary        : $bondi-blue;
+$color-accent           : $lipstick;
+
+
+//Text
+
+$base__font-size        : 16px;
+$base__line             : 24px;
+
+//Asset Paths
+$path-img               : '../img';
+
+
+//Breakpoints
+$brkpoint-sm            :1px;
+$brkpoint-md            :768px;
+$brkpoint-lg            :1100px;
+$brkpoint-xlg           :1400px;

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,kBAAkB;ACAlB,kBAAkB;ACAlB,kBAAkB",
-"sources": ["../scss/utilities/_functions.scss","../scss/utilities/_placeholders.scss","../scss/utilities/_mixins.scss"],
-"names": [],
-"file": "_index.css"
-}

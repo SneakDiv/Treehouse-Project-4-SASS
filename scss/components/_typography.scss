@@ -1,2 +1,43 @@
-/* CSS Document */
+// ==========================================================================
+// Typography
+//==========================================================================
+.container {
+	font-family: $font-family--primary;
+	line-height: ($base__line/$base__font-size );
+	color: $black;
+	background-color: rgba($mystic, .2);  
+}
+
+
+.headline--primary,
+.headline--secondary,
+.link{
+	font-family: $font-family--secondary;
+	color: $electric-blue;
+	
+}
+
+.headline--primary {
+	font-size: em(30px);
+	line-height: (30px/40px);
+	@include tex-shad(1px, 1px, 1px, rgba($black , .8));
+}
+
+
+
+.headline--secondary {
+	color: $oxford-blue;
+	font-size: em(18px);
+}
+
+
+.link {
+	font-weight: $font-weight--bold;
+	font-size: em(18px);
+	text-decoration: none;
+	@include tex-shad(1px, 1px, 0, rgba($black , .8));
+	&:hover {
+		color: $lipstick;
+	}
+}
 
