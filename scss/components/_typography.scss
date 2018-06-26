@@ -13,13 +13,14 @@
 .headline--secondary,
 .link{
 	font-family: $font-family--secondary;
-	color: $electric-blue;
+	
 	
 }
 
 .headline--primary {
 	font-size: em(30px);
 	line-height: (30px/40px);
+	color: $electric-blue;
 	@include tex-shad(1px, 1px, 1px, rgba($black , .8));
 }
 
@@ -33,11 +34,12 @@
 
 .link {
 	font-weight: $font-weight--bold;
-	font-size: em(18px);
+	font-size: em(19px);
 	text-decoration: none;
+	color: $color-secondary; 
 	@include tex-shad(1px, 1px, 0, rgba($black , .8));
 	&:hover {
-		color: $lipstick;
+		color: $color-accent;
 	}
 }
 
