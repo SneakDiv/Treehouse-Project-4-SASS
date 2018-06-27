@@ -4,6 +4,7 @@
 
 * {
 	box-sizing: border-box;
+	//border: red 1px solid;
 }
 
 ul {
@@ -17,9 +18,9 @@ ul {
 
 
 p {
-font-size: em(20px);
-padding: em(5px);
-line-height: (26px/20px);
+@include text(em(20px), (26px/20px));
+ padding: em(5px, 25px);
+ margin: 10px auto;
 }
 
 

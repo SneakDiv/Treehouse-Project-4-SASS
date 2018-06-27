@@ -36,15 +36,25 @@ $color-primary          : $electric-blue;
 $color-secondary        : $bondi-blue;
 $color-accent           : $lipstick;
 
-
+// UI Colours
+$ui-colors: ( 
+default  : $bondi-blue,
+success  : $japanese-laurel,
+error    : $red,
+warning  : $pumpkin,
+info     : $studio 
+);
 //Text
 
 $base__font-size        : 16px;
 $base__line             : 24px;
+$letter-spacing         : 1px;
 
 //Asset Paths
 $path-img               : '../img';
 
+//Border Radius
+$br-default             : .4em;
 
 //Breakpoints
 $brkpoint-sm            :1px;

@@ -1,2 +1,30 @@
-/* CSS Document */
+// ==========================================================================
+// Place Holders
+//==========================================================================
 
+//Primary and Secondary Headings
+%h-prim {
+	margin-bottom: em(50px,30px);
+	
+}
+
+
+%h-sec {
+	letter-spacing: $letter-spacing;
+	
+}
+
+//Buttons
+
+%btn {
+	padding: em(15px,30px);
+	border: 0;
+	border-radius: $br-default;
+	width: 100%;
+	color: $white;
+	font-size: em(18px);
+	display: block;
+	&:hover {
+	 opacity: .50; 	
+	}
+}

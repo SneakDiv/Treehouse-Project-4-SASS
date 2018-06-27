@@ -1,6 +1,38 @@
 // ==========================================================================
 // Mixins
 //==========================================================================
-@mixin tex-shad($x, $y, $blur, $color) {
-	text-shadow: $x $y $blur $color;
+//Text Properties
+@mixin text($size, $l-height: null, $weight: null, $color:null) {
+	font-size: $size;
+	line-height: $l-height;
+	font-weight: $weight;
+	color: $color;
+}
+
+//Color Theme
+@mixin bg-colors($map) {
+@each $theme, $color in $map {
+	&--#{$theme} {
+		background-color: $color;
+		
+	}
+  }
+}
+
+
+//BEM Selectors
+
+@mixin e($element){
+	&__#{$element} {
+		@content;
+	}
+	
+}
+
+
+@mixin m($modifier){
+	&--#{$modifier} {
+		@content;
+	}
+	
 }

@@ -1,2 +1,27 @@
-/* CSS Document */
-
+// ==========================================================================
+// Nav
+// ==========================================================================
+.nav {
+	margin-top: em(30px);
+	margin-bottom: em(40px);
+  @include e(item) {
+		margin: 0 em(10px);
+	    border-bottom: 1px solid rgba($color-primary , .2);
+	    border-radius: em(10px);
+	    
+	  a {
+		@include text(em(20px), $weight: $font-weight--medium , $color: $black); 
+		 display: block;
+		 padding: em(8px, 20px);
+		 text-decoration: none;
+		 text-align: center;
+		 border-radius: em(4px);
+		  
+		  &:hover {
+			  background-color:$color-primary;
+			  color: $white;
+		  }
+		 
+	  }
+	}
+}
