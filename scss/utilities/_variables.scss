@@ -19,22 +19,22 @@ $font-weight--bold       : 700;
 
 $white                  : #FFF;
 $black                  : #0b0b0b;
-$mystic                 : #e5edf0;
-$oxford-blue            : #324A51;
-$electric-blue          : #1bc4b9;
-$lipstick               : #db006d;
-$japanese-laurel        : #009700;
-$bondi-blue             : #0094ad;
-$studio                 : #8859b1;
-$pumpkin                : #ff7823;
+$mystic                 : #e5edf0; //blue white
+$oxford-blue            : #324A51; //dark blue
+$electric-blue          : #1bc4b9; //aqua blue
+$lipstick               : #db006d; //pink
+$japanese-laurel        : #009700; //green
+$bondi-blue             : #0094ad; //blue
+$studio                 : #8859b1; //purple
+$pumpkin                : #ff7823; //orange
 $red                    : #f91209;
                    
 
 
 //Colour Usage
-$color-primary          : $electric-blue;
-$color-secondary        : $bondi-blue;
-$color-accent           : $lipstick;
+$color-primary          : $electric-blue; //aqua blue
+$color-secondary        : $bondi-blue;    //blue
+$color-accent           : $lipstick;      //pink
 
 // UI Colours
 $ui-colors: ( 
@@ -53,8 +53,10 @@ $letter-spacing         : 1px;
 //Asset Paths
 $path-img               : '../img';
 
+
+
 //Border Radius
-$br-default             : .4em;
+$br-rad                 : 0.25em;
 
 //Breakpoints
 $brkpoint-sm            :1px;

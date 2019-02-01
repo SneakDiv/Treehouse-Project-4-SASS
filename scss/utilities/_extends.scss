@@ -1,0 +1,85 @@
+// ==========================================================================
+// Place Holders
+//==========================================================================
+
+//Nav
+
+%nav-item-dis {
+	margin: 0 em(10px);
+	display: block;
+	border-bottom: 1px solid rgba($color-primary , .7);
+    border-radius: em(10px);
+	    
+}
+
+
+%nav-item-link {
+	display: block;
+	padding: em(8px, 20px);
+	text-decoration: none;
+	text-align: center;
+	border-radius: $br-rad;
+		  
+}
+
+
+
+%nav-item-hov {
+	background-color:rgba($color-primary, .7);
+    color: $white;
+}
+
+
+
+
+
+
+//Primary and Secondary Headings
+%h-prim {
+	margin-bottom: em(50px,30px);
+	
+}
+
+
+%h-sec {
+	letter-spacing: $letter-spacing;
+	
+}
+
+
+//Links
+
+%link-deflt {
+	text-decoration: none;
+	
+}
+
+
+%link-hov {
+	color: $color-accent;
+}
+
+//Buttons
+
+%btn {
+	margin: em(7px) auto;
+	padding: em(15px,30px);
+	border: 0;
+	border-radius: $br-rad;
+	width: 100%;
+	color: $white;
+	font-size: em(18px);
+	display: block;
+	&:hover {
+	 opacity: .50; 	
+	}
+}
+
+
+%img {
+	display: block;
+	padding: em(5px);
+	margin-bottom: em(24px);
+	max-width: 100%;
+	height: auto;
+}

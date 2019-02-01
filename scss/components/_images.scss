@@ -1,2 +1,21 @@
-/* CSS Document */
+//=======================================
+//IMAGES
+//======================================
 
+
+.img {
+	
+	@include m(avatar){
+		@extend %img;
+		@include br-default($colu:rgba($lipstick, 0.3));
+		border-radius: 100%;
+		margin-bottom: em(30px);
+		@include box-shdo($col:rgba($lipstick, 0.3) );
+	}
+	
+	@include m(frame){
+		@extend %img;
+		@include br-default($colu:rgba($lipstick, 0.3));
+		@include box-shdo($col:rgba($lipstick, 0.3) );
+	}
+}

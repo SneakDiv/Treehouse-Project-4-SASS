@@ -17,8 +17,27 @@
 		
 	}
   }
+	
+	@content;
 }
 
+
+//Shadows
+
+@mixin text-shdo($hr: 0.5px, $vrt:0.5px, $blur:null, $col:$black) {
+	text-shadow: $hr $vrt $blur $col;
+}
+
+
+@mixin box-shdo($in:inset, $hr:0, $vrt:0, $blur:15px, $sphd: null, $col:$black) {
+	box-shadow: $in $hr $vrt $blur $sphd $col;
+	}
+
+
+
+@mixin br-default ($pix: 1px, $styl: solid, $colu:null) {
+	border: $pix $styl $colu;
+}
 
 //BEM Selectors
 

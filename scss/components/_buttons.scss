@@ -2,8 +2,9 @@
 // Buttons
 //==========================================================================
 
-.btn {
+.theme__colors{
 	
 	@include bg-colors($ui-colors);
+	@extend %btn;
 	
 }

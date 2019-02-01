@@ -18,7 +18,8 @@
 .headline--primary {
 	@extend %h-prim;
 	@include text(em(30px), (36px/30px), $color: $color-primary);
-	text-shadow: 1px 1px 0 rgba($black , .8);
+	@include text-shdo($blur:0, $col: rgba($black , .8) );
+	//text-shadow: 1px 1px 0 rgba($black , .8);
 }
 
 
@@ -32,10 +33,11 @@
 
 .link {
 	@include text(em(19px), (36px/30px), $font-weight--bold, $color-secondary);
-	text-decoration: none;
-	text-shadow: 0.5px 0.5px 0 rgba($black, .8);
-	&:hover {
-		color: $color-accent;
+	@extend %link-deflt;
+	@include text-shdo($col: rgba($black, .8) );
+	
+  &:hover {
+	 @extend %link-hov;
 	}
 }
 

@@ -1,2 +1,23 @@
-/* CSS Document */
+//==========================
+//FORMS
+//==========================
 
+.form {
+	@include br-default($colu:rgba($lipstick, 0.3));
+	@include box-shdo($col:rgba($lipstick, 0.3));
+	
+	@include m(label){
+		display: block;
+		margin-bottom: em(30px);
+		
+		
+	}
+	
+	
+	@include e(input){
+		width: 100%;
+		font-size: em(20px);
+		padding: em(17px, 20px);
+		margin-bottom: em(22px);
+	}
+}
