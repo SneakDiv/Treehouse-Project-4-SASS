@@ -22,21 +22,59 @@
 }
 
 
-//Shadows
+//SHADOWS
 
+//Text Shadow
 @mixin text-shdo($hr: 0.5px, $vrt:0.5px, $blur:null, $col:$black) {
 	text-shadow: $hr $vrt $blur $col;
 }
 
-
-@mixin box-shdo($in:inset, $hr:0, $vrt:0, $blur:15px, $sphd: null, $col:$black) {
+//Box Shadow
+@mixin box-shdo($in:null, $hr:0, $vrt:0, $blur:15px, $sphd: null, $col:$black) {
 	box-shadow: $in $hr $vrt $blur $sphd $col;
 	}
 
 
-
+//Border 
 @mixin br-default ($pix: 1px, $styl: solid, $colu:null) {
 	border: $pix $styl $colu;
+}
+
+
+
+
+//Image-background
+
+@mixin pseudo-img-right  {
+ 
+	background-image: -webkit-linear-gradient(left, $electric-blue 25% ,$lipstick, transparent);
+	background-image: -moz-linear-gradient(left, $electric-blue 25% ,$lipstick, transparent);
+	background-image: -o-linear-gradient(left, $electric-blue 25% ,$lipstick, transparent);
+
+}
+
+
+
+@mixin pseudo-img-top  {
+ 
+	background-image: -webkit-linear-gradient(transparent,$lipstick  5%, $electric-blue );
+	background-image: -moz-linear-gradient(transparent,$lipstick 5%,$electric-blue );
+	background-image: -o-linear-gradient(transparent,$lipstick 5%, $electric-blue );
+
+}
+
+
+
+//Flex Box
+@mixin flexy ($disp: flex,
+			 $dir: null,
+			 $wrap: null,
+			 $just: null) {
+ display: $disp;
+ flex-direction: $dir;
+ flex-wrap: $wrap;
+ justify-content: $just;
+
 }
 
 //BEM Selectors

@@ -1,5 +1,13 @@
 /*MY STYLES*/
 @import url("https://fonts.googleapis.com/css?family=Poiret+One|Quicksand:400,500,700");
+.form {
+  padding: 1em;
+}
+
+.form .img--avatar {
+  margin: 0 auto;
+}
+
 .nav__item {
   margin: 0 0.625em;
   display: block;
@@ -33,7 +41,7 @@
 }
 
 .link:hover {
-  color: #db006d;
+  color: #1bc4b9;
 }
 
 .theme__colors {
@@ -615,7 +623,6 @@ p {
   padding: 0.85em;
   margin-bottom: 1.375em;
 }
-
 .grid__row {
   padding: 0 1em;
 }
@@ -624,11 +631,11 @@ p {
   border: 1px solid rgba(219, 0, 109, 0.3);
   border-radius: 100%;
   margin-bottom: 1.875em;
-  box-shadow: inset 0 0 15px rgba(219, 0, 109, 0.3);
+  box-shadow: 0 0 15px rgba(219, 0, 109, 0.3);
 }
 .img--frame {
   border: 1px solid rgba(219, 0, 109, 0.3);
-  box-shadow: inset 0 0 15px rgba(219, 0, 109, 0.3);
+  box-shadow: 0 0 15px rgba(219, 0, 109, 0.3);
 }
 
 .nav {
@@ -670,8 +677,39 @@ p {
   font-size: 1.1875em;
   line-height: 1.2;
   font-weight: 700;
-  color: #0094ad;
+  color: #db006d;
   text-shadow: 0.5px 0.5px rgba(11, 11, 11, 0.8);
+}
+.blockquote {
+  position: relative;
+  padding: 1em;
+  font-size: 1.25em;
+  line-height: 1.35;
+  font-style: italic;
+}
+
+.blockquote::before,
+.blockquote::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: -8px;
+}
+
+.blockquote::before {
+  top: -8px;
+  width: 8px;
+  background-image: -webkit-linear-gradient(transparent, #db006d 5%, #1bc4b9);
+  background-image: -moz-linear-gradient(transparent, #db006d 5%, #1bc4b9);
+  background-image: -o-linear-gradient(transparent, #db006d 5%, #1bc4b9);
+}
+
+.blockquote::after {
+  right: -8px;
+  height: 8px;
+  background-image: -webkit-linear-gradient(left, #1bc4b9 25%, #db006d, transparent);
+  background-image: -moz-linear-gradient(left, #1bc4b9 25%, #db006d, transparent);
+  background-image: -o-linear-gradient(left, #1bc4b9 25%, #db006d, transparent);
 }
 
 /*# sourceMappingURL=styles.css.map */

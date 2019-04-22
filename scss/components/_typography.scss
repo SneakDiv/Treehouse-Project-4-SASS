@@ -32,7 +32,7 @@
 
 
 .link {
-	@include text(em(19px), (36px/30px), $font-weight--bold, $color-secondary);
+	@include text(em(19px), (36px/30px), $font-weight--bold, $color-accent);
 	@extend %link-deflt;
 	@include text-shdo($col: rgba($black, .8) );
 	
@@ -40,4 +40,36 @@
 	 @extend %link-hov;
 	}
 }
+
+.blockquote {
+	position: relative;
+	padding: 1em;
+	font-size: em(20px);
+	line-height: (27px/20px);
+	font-style: italic;
+}
+
+.blockquote::before,
+ .blockquote::after {
+ content: "";
+  position: absolute;
+  bottom: -8px;
+  left: -8px;
+  }
+
+
+  .blockquote::before {
+	top: -8px;
+	width: 8px;
+	@include pseudo-img-top;
+	
+  }
+  
+  .blockquote::after {
+	right: -8px;
+    height: 8px;
+	@include pseudo-img-right;
+	
+  }
+  
 

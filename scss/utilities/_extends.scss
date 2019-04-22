@@ -2,6 +2,27 @@
 // Place Holders
 //==========================================================================
 
+//SPACING
+
+//Padding
+
+%pad-all {
+	padding: em(16px);
+}
+
+%pad-sides {
+padding: 0 em(16px);
+
+}
+
+//Margin 
+
+%marg-cen {
+	margin: 0 auto;
+}
+
+
+
 //Nav
 
 %nav-item-dis {
@@ -56,7 +77,7 @@
 
 
 %link-hov {
-	color: $color-accent;
+	color: $electric-blue;
 }
 
 //Buttons
