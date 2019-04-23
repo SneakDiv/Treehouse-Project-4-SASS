@@ -4,9 +4,9 @@
 
 // Fonts
 
-$font-url--google       :"https://fonts.googleapis.com/css?family=Poiret+One|Quicksand:400,500,700";
-$font-family--primary   : 'Quicksand', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
-$font-family--secondary : 'Poiret One', Helvetica, Arial, 'sans-serif';
+$font-url--google       :"https://fonts.googleapis.com/css?family=Poiret+One|Quicksand:400500700";
+$font-family--primary   : 'Quicksand' 'Helvetica Neue' Helvetica Arial 'sans-serif';
+$font-family--secondary : 'Poiret One' Helvetica Arial 'sans-serif';
 
 
 // Font Weights
@@ -28,21 +28,45 @@ $bondi-blue             : #0094ad; //blue
 $studio                 : #8859b1; //purple
 $pumpkin                : #ff7823; //orange
 $red                    : #f91209;
-//END COLORS                   
+//END COLORS 
 
+//Grid Colours
+//COLORS
+$cerise                 :#CE2380;
+$geyser                 :#D6DFE0;
+$robins-egg-blue        :#07DAC0;
+$ragoon-green           :#171810;
+$zinnwaldite            :#EAC5B0;
+$golden-fizz            :#F9F940;
+$lavender-magenta       :#EC8FD0;
+$bright-turquoise       :#04D4F0;
+//END COLORS
 
 //Colour Usage
 $color-primary          : $electric-blue; //aqua blue
 $color-secondary        : $bondi-blue;    //blue
 $color-accent           : $lipstick;      //pink
 
-// UI Colours
+// BUTTON Colours
 $btn-colors: ( 
-default  : $bondi-blue,
-success  : $japanese-laurel,
+default  : $electric-blue,
+success  : rgba($japanese-laurel, 0.5),
 error    : $red,
-warning  : $pumpkin,
-info     : $studio 
+warning  : rgba($pumpkin, 0.8),
+info     : $studio, 
+);
+
+//GRID Col Colours
+
+$grid-col-colors: (
+ col-1  : #CE2380,
+ col-2  : #D6DFE0,
+ col-3  : #07DAC0,
+ col-4  : #171810,
+ col-5  : #EAC5B0,
+ col-6  : #F9F940,
+ col-7  : #EC8FD0,
+ col-8  : #04D4F0,
 );
 //Text
 

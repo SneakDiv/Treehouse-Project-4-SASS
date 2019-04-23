@@ -8,9 +8,7 @@
 	@extend %pad-all;
 
 
-	.img--avatar {
-		@extend %marg-cen;
-	}
+	
 
 	@include m(label){
 		display: block;
@@ -42,9 +40,9 @@
 	}
 
 
-	@include e(btn) {
+	    .btn  {
 		@extend %btn;
-		background: $lipstick;
+		background-color: $lipstick;
 	}
 
 

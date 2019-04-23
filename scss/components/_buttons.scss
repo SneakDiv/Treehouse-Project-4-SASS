@@ -2,9 +2,18 @@
 // Buttons
 //==========================================================================
 
-.theme__colors{
-	
-	@include bg-colors($btn-colors);
-	@extend %btn;
-	
+
+
+ .btn {
+
+	 @include bg-colors($btn-colors);
+	 
 }
+
+
+[class^="btn--"] {
+ @extend %btn;
+ @include text-shdo($blur:0, $col: rgba($black , .8) );
+
+}
+
