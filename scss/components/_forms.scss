@@ -3,9 +3,14 @@
 //==========================
 
 .form {
-	@include br-default($colu:rgba($lipstick, 0.3));
-	@include box-shdo($in:inset, $col:rgba($lipstick, 0.3));
+	@include br-default($colu:rgba($lipstick, 0.2));
+	@include box-shdo($in:inset, $col:rgba($lipstick, 0.2));
 	@extend %pad-all;
+
+
+	.img--avatar {
+		@extend %marg-cen;
+	}
 
 	@include m(label){
 		display: block;
@@ -22,10 +27,26 @@
 		font-size: em(20px);
 		padding: em(17px, 20px);
 		margin-bottom: em(22px);
+		border: none;
+		border-bottom: 6px solid $color-primary;
+		border-radius: $br-rad;
+	    @include grad($color1:$white, $color2: rgba($bondi-blue, 0.2)); 
+		transition: background-color, border-bottom;
+
+
+		&:focus {
+			@include grad($color1:$white 50%, $color2: rgba($lipstick, 0.2));
+			border-bottom: 6px solid $lipstick;
+		}
+	    
 	}
 
 
-	.img--avatar {
-		@extend %marg-cen;
+	@include e(btn) {
+		@extend %btn;
+		background: $lipstick;
 	}
+
+
+	
 }

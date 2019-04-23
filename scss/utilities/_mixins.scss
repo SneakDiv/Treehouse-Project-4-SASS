@@ -33,7 +33,15 @@
 @mixin box-shdo($in:null, $hr:0, $vrt:0, $blur:15px, $sphd:null, $col:$black) {
 	box-shadow: $in $hr $vrt $blur $sphd $col;
 	}
+//Gradient
 
+@mixin grad($dir:to bottom, $color1, $color2) {
+	 background: -webkit-linear-gradient($dir, $color1, $color2);
+	background: -moz-linear-gradient($dir, $color1, $color2);
+	background: -o-linear-gradient($dir, $color1, $color2);
+	background: linear-gradient($dir, $color1, $color2);
+
+}
 
 //Border 
 @mixin br-default ($pix: 1px, $styl: solid, $colu:null) {
