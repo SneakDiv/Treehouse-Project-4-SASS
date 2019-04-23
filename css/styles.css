@@ -643,66 +643,6 @@ p {
   background-color: #db006d;
 }
 
-.grid__col--1 {
-  background-color: #b15991;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
-.grid__col--2 {
-  background-color: #b16b59;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
-.grid__col--3 {
-  background-color: #aeb159;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
-.grid__col--4 {
-  background-color: #65b159;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
-.grid__col--5 {
-  background-color: #59b197;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
-.grid__col--6 {
-  background-color: #5982b1;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
-.grid__col--7 {
-  background-color: #7959b1;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
-.grid__col--8 {
-  background-color: #b1599f;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
-.grid__col--9 {
-  background-color: #b15c59;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
-.grid__col--10 {
-  background-color: #b1a559;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
-.grid__col--11 {
-  background-color: #73b159;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
-.grid__col--12 {
-  background-color: #59b188;
-  box-shadow: inset 2px 2px 4px #CE2380;
-}
-
 .grid__row {
   padding: 0 1em;
   margin: 10px 0;

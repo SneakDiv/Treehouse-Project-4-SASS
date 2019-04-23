@@ -1,13 +1,7 @@
 //========================================
 // GRID CONTAINERS
 //=======================================
-@for $i from 1 through 12 {
-	.grid__col--#{$i} {
-	  background-color: adjust-hue($studio, $i * 50);
-	  box-shadow: inset 2px 2px 4px #CE2380
-	  ;
-	}
-  }
+  
 .grid__row {
 	padding: 0 1em;
 	margin: 10px 0;
