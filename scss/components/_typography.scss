@@ -3,23 +3,24 @@
 //==========================================================================
 .container {
 	font-family: $font-family--primary;
-	@include text($base__font-size, ($base__line/$base__font-size ), $color: $black);
+	@include text($base__font-size, ($base__line/$base__font-size ), $color: rgba($black, 0.6));
 	background-color: rgba($mystic, .1);
 }
+
+
 
 
 .headline--primary,
 .headline--secondary,
 .link{
 	font-family: $font-family--secondary;
-	
+
 }
 
 .headline--primary {
 	@extend %h-prim;
 	@include text(em(30px), (36px/30px), $color: $color-primary);
-	@include text-shdo($blur:0, $col: rgba($black , .8) );
-	//text-shadow: 1px 1px 0 rgba($black , .8);
+	@include text-shdo($blur:0, $col: rgba($black, .8) );
 }
 
 
@@ -27,7 +28,8 @@
 .headline--secondary {
 	@extend %h-sec;
 	@include text(em(20px), $color: $oxford-blue);
-	
+	@include text-shdo($blur:0, $col: rgba($black , .8) );
+	padding-left: em(15px);
 }
 
 

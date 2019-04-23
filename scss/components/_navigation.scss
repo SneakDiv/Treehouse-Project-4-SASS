@@ -11,6 +11,7 @@
 	  a {
 		@include text(em(20px), $weight: $font-weight--medium , $color: $oxford-blue); 
 		 @extend %nav-item-link;
+		 @include text-shdo($col: rgba($black, .5) );
 		  
 		  &:hover {
 			 @extend %nav-item-hov;

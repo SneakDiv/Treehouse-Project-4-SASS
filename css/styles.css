@@ -667,19 +667,20 @@ p {
   font-size: 1.25em;
   font-weight: 500;
   color: #324A51;
+  text-shadow: 0.5px 0.5px rgba(11, 11, 11, 0.5);
 }
 .container {
-  font-family: "Quicksand" "Helvetica Neue" Helvetica Arial "sans-serif";
+  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, "sans-serif";
   font-size: 16px;
   line-height: 1.5;
-  color: #0b0b0b;
+  color: rgba(11, 11, 11, 0.6);
   background-color: rgba(229, 237, 240, 0.1);
 }
 
 .headline--primary,
 .headline--secondary,
 .link {
-  font-family: "Poiret One" Helvetica Arial "sans-serif";
+  font-family: "Poiret One", Helvetica, Arial, "sans-serif";
 }
 
 .headline--primary {
@@ -692,6 +693,8 @@ p {
 .headline--secondary {
   font-size: 1.25em;
   color: #324A51;
+  text-shadow: 0.5px 0.5px 0 rgba(11, 11, 11, 0.8);
+  padding-left: 0.9375em;
 }
 
 .link {
