@@ -30,7 +30,7 @@
 }
 
 //Box Shadow
-@mixin box-shdo($in:null, $hr:0, $vrt:0, $blur:15px, $sphd: null, $col:$black) {
+@mixin box-shdo($in:null, $hr:0, $vrt:0, $blur:15px, $sphd:null, $col:$black) {
 	box-shadow: $in $hr $vrt $blur $sphd $col;
 	}
 
@@ -42,14 +42,14 @@
 
 
 
-
 //Image-background
 
 @mixin pseudo-img-right  {
  
-	background-image: -webkit-linear-gradient(left, $electric-blue 25% ,$lipstick, transparent);
-	background-image: -moz-linear-gradient(left, $electric-blue 25% ,$lipstick, transparent);
-	background-image: -o-linear-gradient(left, $electric-blue 25% ,$lipstick, transparent);
+	background-image: -webkit-linear-gradient(left, $electric-blue 25%, rgba($lipstick, .6), transparent);
+	background-image: -moz-linear-gradient(left, $electric-blue 25%, rgba($lipstick, .6), transparent);
+	background-image: -o-linear-gradient(left, $electric-blue 25%, rgba($lipstick, .6), transparent);
+	background-image: linear-gradient(left, $electric-blue 25%, rgba($lipstick, .6), transparent);
 
 }
 
@@ -57,9 +57,10 @@
 
 @mixin pseudo-img-top  {
  
-	background-image: -webkit-linear-gradient(transparent,$lipstick  5%, $electric-blue );
-	background-image: -moz-linear-gradient(transparent,$lipstick 5%,$electric-blue );
-	background-image: -o-linear-gradient(transparent,$lipstick 5%, $electric-blue );
+	background-image: -webkit-linear-gradient(transparent,rgba($lipstick, .6)  25%, $electric-blue );
+	background-image: -moz-linear-gradient(transparent, rgba($lipstick, .6) 25%,$electric-blue );
+	background-image: -o-linear-gradient(transparent,rgba($lipstick, .6) 25%, $electric-blue );
+	background-image: linear-gradient(transparent,rgba($lipstick, .6)  25%, $electric-blue );
 
 }
 

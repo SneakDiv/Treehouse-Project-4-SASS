@@ -699,17 +699,19 @@ p {
 .blockquote::before {
   top: -8px;
   width: 8px;
-  background-image: -webkit-linear-gradient(transparent, #db006d 5%, #1bc4b9);
-  background-image: -moz-linear-gradient(transparent, #db006d 5%, #1bc4b9);
-  background-image: -o-linear-gradient(transparent, #db006d 5%, #1bc4b9);
+  background-image: -webkit-linear-gradient(transparent, rgba(219, 0, 109, 0.6) 25%, #1bc4b9);
+  background-image: -moz-linear-gradient(transparent, rgba(219, 0, 109, 0.6) 25%, #1bc4b9);
+  background-image: -o-linear-gradient(transparent, rgba(219, 0, 109, 0.6) 25%, #1bc4b9);
+  background-image: linear-gradient(transparent, rgba(219, 0, 109, 0.6) 25%, #1bc4b9);
 }
 
 .blockquote::after {
   right: -8px;
   height: 8px;
-  background-image: -webkit-linear-gradient(left, #1bc4b9 25%, #db006d, transparent);
-  background-image: -moz-linear-gradient(left, #1bc4b9 25%, #db006d, transparent);
-  background-image: -o-linear-gradient(left, #1bc4b9 25%, #db006d, transparent);
+  background-image: -webkit-linear-gradient(left, #1bc4b9 25%, rgba(219, 0, 109, 0.6), transparent);
+  background-image: -moz-linear-gradient(left, #1bc4b9 25%, rgba(219, 0, 109, 0.6), transparent);
+  background-image: -o-linear-gradient(left, #1bc4b9 25%, rgba(219, 0, 109, 0.6), transparent);
+  background-image: linear-gradient(left, #1bc4b9 25%, rgba(219, 0, 109, 0.6), transparent);
 }
 
 /*# sourceMappingURL=styles.css.map */
