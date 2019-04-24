@@ -40,6 +40,7 @@ $zinnwaldite            :#EAC5B0;
 $golden-fizz            :#F9F940;
 $lavender-magenta       :#EC8FD0;
 $bright-turquoise       :#04D4F0;
+$cameo                  :#d8bc9a;
 //END COLORS
 
 //Colour Usage
@@ -58,16 +59,17 @@ info     : $studio,
 
 //GRID Col Colours
 
-$grid-col-colors: (
- col-1  : #CE2380,
- col-2  : #D6DFE0,
- col-3  : #07DAC0,
- col-4  : #171810,
- col-5  : #EAC5B0,
- col-6  : #F9F940,
- col-7  : #EC8FD0,
- col-8  : #04D4F0,
-);
+//$grid-col-colors: (
+  // $cerise,
+   //$geyser,
+  // $robins-egg-blue,
+   //$ragoon-green,
+  // $zinnwaldite,
+   //$golden-fizz,
+   //$lavender-magenta,
+   //$bright-turquoise,
+  // $cameo,
+//);
 //Text
 
 $base__font-size        : 16px;

@@ -4,6 +4,10 @@
   padding: 1em;
 }
 
+.grid__row__col, .grid__row {
+  padding: 0 1em;
+}
+
 .nav__item {
   margin: 0 0.625em;
   display: block;
@@ -590,19 +594,19 @@ p {
   margin-bottom: 1.25em;
 }
 
-.btn--default {
+.theme__colors.btn--default {
   background-color: #1bc4b9;
 }
-.btn--success {
+.theme__colors.btn--success {
   background-color: rgba(0, 151, 0, 0.5);
 }
-.btn--error {
+.theme__colors.btn--error {
   background-color: #f91209;
 }
-.btn--warning {
+.theme__colors.btn--warning {
   background-color: rgba(255, 120, 35, 0.8);
 }
-.btn--info {
+.theme__colors.btn--info {
   background-color: #8859b1;
 }
 
@@ -644,8 +648,10 @@ p {
 }
 
 .grid__row {
-  padding: 0 1em;
   margin: 10px 0;
+}
+[class*=grid__col--].theme__colors {
+  color: #db006d;
 }
 
 .img--avatar {

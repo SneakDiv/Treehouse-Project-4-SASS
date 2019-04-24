@@ -1,8 +1,26 @@
 //========================================
 // GRID CONTAINERS
 //=======================================
-  
+	
+
+
+
 .grid__row {
-	padding: 0 1em;
+	@extend %pad-sides;
 	margin: 10px 0;
+
+	@include e(col){
+		@extend %pad-sides;
+
+
+		
+	}
+	
 }
+
+
+
+[class*="grid__col--"].theme__colors {
+  color: $lipstick;
+}
+
