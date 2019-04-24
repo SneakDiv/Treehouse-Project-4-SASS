@@ -13,12 +13,15 @@ $font-family--secondary : 'Poiret One', Helvetica, Arial, 'sans-serif';
 
 $font-weight--regular    : 400;
 $font-weight--medium     : 500;
-$font-weight--bold       : 700;    
+$font-weight--bold       : 700;  
+
+
 
 // Base Colours
 //COLORS
 $white                  : #FFF;
 $black                  : #0b0b0b;
+$grey                   : #797e83;
 $mystic                 : #e5edf0; //blue white
 $oxford-blue            : #324A51; //dark blue
 $electric-blue          : #1bc4b9; //aqua blue
@@ -28,7 +31,27 @@ $bondi-blue             : #0094ad; //blue
 $studio                 : #8859b1; //purple
 $pumpkin                : #ff7823; //orange
 $red                    : #f91209;
-//END COLORS 
+//END COLORS
+
+$color-shades: (
+      grey:(
+
+    xx-light:    ligthen($grey, 43%),
+     x-light:    ligthen($grey, 35%),
+     light  :    ligthen($grey, 12%),
+     base   :    $grey,
+     dark   :    darken($grey, 8%),
+     x-dark :    darken($grey, 16%),
+
+    ),
+
+    black:(
+
+    light:   lighten($black, 10%),
+    base :   $black,  
+    dark :   darken($black, 10%),
+    ),
+);
 
 //Grid Colours
 //COLORS
@@ -44,9 +67,15 @@ $cameo                  :#d8bc9a;
 //END COLORS
 
 //Colour Usage
+
 $color-primary          : $electric-blue; //aqua blue
 $color-secondary        : $bondi-blue;    //blue
 $color-accent           : $lipstick;      //pink
+
+
+
+
+
 
 // BUTTON Colours
 $btn-colors: ( 
@@ -56,6 +85,9 @@ error    : $red,
 warning  : rgba($pumpkin, 0.8),
 info     : $studio, 
 );
+
+
+
 
 //GRID Col Colours
 
@@ -70,6 +102,9 @@ info     : $studio,
    //$bright-turquoise,
   // $cameo,
 //);
+
+
+
 //Text
 
 $base__font-size        : 16px;
