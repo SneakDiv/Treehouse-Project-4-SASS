@@ -4,7 +4,7 @@
   padding: 1em;
 }
 
-.grid__row__col, .grid__row {
+.grid__row {
   padding: 0 1em;
 }
 
@@ -659,10 +659,56 @@ p {
 }
 
 .grid__row {
-  margin: 10px 0;
+  margin: 3.125em auto;
+  max-width: 87.5em;
 }
+
 [class*=grid__col--].theme__colors {
   color: #db006d;
+}
+[class*=grid__col--].theme__colors--grid__col--2 {
+  background: #CE2380;
+  background: linear-gradient(#252525, #CE2380 85%, #252525);
+}
+[class*=grid__col--].theme__colors--grid__col--3 {
+  background: #D6DFE0;
+  background: linear-gradient(#252525, #D6DFE0 85%, #252525);
+}
+[class*=grid__col--].theme__colors--grid__col--4 {
+  background: #07DAC0;
+  background: linear-gradient(#252525, #07DAC0 85%, #252525);
+}
+[class*=grid__col--].theme__colors--grid__col--5 {
+  background: #07DAC0;
+  background: linear-gradient(#252525, #07DAC0 85%, #252525);
+}
+[class*=grid__col--].theme__colors--grid__col--6 {
+  background: #171810;
+  background: linear-gradient(#252525, #171810 85%, #252525);
+}
+[class*=grid__col--].theme__colors--grid__col--7 {
+  background: #EAC5B0;
+  background: linear-gradient(#252525, #EAC5B0 85%, #252525);
+}
+[class*=grid__col--].theme__colors--grid__col--8 {
+  background: #EAC5B0;
+  background: linear-gradient(#252525, #EAC5B0 85%, #252525);
+}
+[class*=grid__col--].theme__colors--grid__col--9 {
+  background: #F9F940;
+  background: linear-gradient(#252525, #F9F940 85%, #252525);
+}
+[class*=grid__col--].theme__colors--grid__col--10 {
+  background: #EC8FD0;
+  background: linear-gradient(#252525, #EC8FD0 85%, #252525);
+}
+[class*=grid__col--].theme__colors--grid__col--11 {
+  background: #04D4F0;
+  background: linear-gradient(#252525, #04D4F0 85%, #252525);
+}
+[class*=grid__col--].theme__colors--grid__col--12 {
+  background: #d8bc9a;
+  background: linear-gradient(#252525, #d8bc9a 85%, #252525);
 }
 
 .img--avatar {

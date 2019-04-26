@@ -91,17 +91,20 @@ info     : $studio,
 
 //GRID Col Colours
 
-//$grid-col-colors: (
-  // $cerise,
-   //$geyser,
-  // $robins-egg-blue,
-   //$ragoon-green,
-  // $zinnwaldite,
-   //$golden-fizz,
-   //$lavender-magenta,
-   //$bright-turquoise,
-  // $cameo,
-//);
+$grid-bg-colrs: (
+  grid__col--2    : $cerise,
+  grid__col--3    : $geyser,
+  grid__col--4    : $robins-egg-blue,
+  grid__col--5    : $robins-egg-blue,
+  grid__col--6    :  $ragoon-green,
+  grid__col--7    :  $zinnwaldite,
+  grid__col--8    :  $zinnwaldite,
+  grid__col--9    :  $golden-fizz,
+  grid__col--10   :  $lavender-magenta,
+  grid__col--11   :  $bright-turquoise,
+  grid__col--12   :  $cameo,
+    
+);
 
 
 

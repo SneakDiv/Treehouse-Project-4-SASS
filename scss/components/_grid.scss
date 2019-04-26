@@ -7,20 +7,15 @@
 
 .grid__row {
 	@extend %pad-sides;
-	margin: 10px 0;
-
-	@include e(col){
-		@extend %pad-sides;
-
-
-		
-	}
+	margin: em(50px) auto;
+	max-width: em(1400px);
 	
 }
 
 
 
 [class*="grid__col--"].theme__colors {
-  color: $lipstick;
+	@include bg-colors($grid-bg-colrs);
+    color: $lipstick;
 }
 
