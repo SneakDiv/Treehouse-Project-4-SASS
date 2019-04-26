@@ -46,7 +46,7 @@
 
 .form .btn, [class^=btn--] {
   margin: 0.4375em auto;
-  padding: 0.5em;
+  padding: 0.6666666667em;
   border: 0;
   border-radius: 0.25em;
   width: 100%;
@@ -65,6 +65,12 @@
   margin-bottom: 1.5em;
   max-width: 100%;
   height: auto;
+}
+
+.blockquote:after, .blockquote:before {
+  content: "";
+  display: block;
+  position: absolute;
 }
 
 /* CSS Document */
@@ -595,23 +601,28 @@ p {
 }
 
 .theme__colors.btn--default {
-  background-color: #1bc4b9;
+  background: #1bc4b9;
+  background: linear-gradient(#252525, #1bc4b9 85%, #252525);
 }
 .theme__colors.btn--success {
-  background-color: rgba(0, 151, 0, 0.5);
+  background: rgba(0, 151, 0, 0.5);
+  background: linear-gradient(#252525, rgba(0, 151, 0, 0.5) 85%, #252525);
 }
 .theme__colors.btn--error {
-  background-color: #f91209;
+  background: #f91209;
+  background: linear-gradient(#252525, #f91209 85%, #252525);
 }
 .theme__colors.btn--warning {
-  background-color: rgba(255, 120, 35, 0.8);
+  background: rgba(255, 120, 35, 0.8);
+  background: linear-gradient(#252525, rgba(255, 120, 35, 0.8) 85%, #252525);
 }
 .theme__colors.btn--info {
-  background-color: #8859b1;
+  background: #8859b1;
+  background: linear-gradient(#252525, #8859b1 85%, #252525);
 }
 
 [class^=btn--] {
-  text-shadow: 0.5px 0.5px 0 rgba(11, 11, 11, 0.8);
+  text-shadow: 0.5px 0.5px 0 #252525;
 }
 
 .form {
@@ -679,7 +690,7 @@ p {
   font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, "sans-serif";
   font-size: 16px;
   line-height: 1.5;
-  color: rgba(11, 11, 11, 0.6);
+  color: #656a6e;
   background-color: rgba(229, 237, 240, 0.1);
 }
 
@@ -693,13 +704,13 @@ p {
   font-size: 1.875em;
   line-height: 1.2;
   color: #1bc4b9;
-  text-shadow: 0.5px 0.5px 0 rgba(11, 11, 11, 0.8);
+  text-shadow: 0.5px 0.5px 0 #252525;
 }
 
 .headline--secondary {
   font-size: 1.25em;
   color: #324A51;
-  text-shadow: 0.5px 0.5px 0 rgba(11, 11, 11, 0.8);
+  text-shadow: 0.5px 0.5px 0 #252525;
   padding-left: 0.9375em;
 }
 
@@ -708,36 +719,35 @@ p {
   line-height: 1.2;
   font-weight: 700;
   color: #db006d;
-  text-shadow: 0.5px 0.5px rgba(11, 11, 11, 0.8);
+  text-shadow: 0.5px 0.5px #252525;
 }
 .blockquote {
   position: relative;
   padding: 1em;
-  font-size: 1.25em;
-  line-height: 1.35;
+  font-size: 1.375em;
+  line-height: 1.3636363636;
+  color: #525559;
   font-style: italic;
 }
-
-.blockquote::before,
-.blockquote::after {
-  content: "";
-  position: absolute;
+.blockquote:before {
   bottom: -8px;
   left: -8px;
 }
-
-.blockquote::before {
-  top: -8px;
+.blockquote:after {
+  bottom: -8px;
+  left: -8px;
+}
+.blockquote:before {
   width: 8px;
+  top: -8px;
   background-image: -webkit-linear-gradient(transparent, rgba(219, 0, 109, 0.6) 25%, #1bc4b9);
   background-image: -moz-linear-gradient(transparent, rgba(219, 0, 109, 0.6) 25%, #1bc4b9);
   background-image: -o-linear-gradient(transparent, rgba(219, 0, 109, 0.6) 25%, #1bc4b9);
   background-image: linear-gradient(transparent, rgba(219, 0, 109, 0.6) 25%, #1bc4b9);
 }
-
-.blockquote::after {
-  right: -8px;
+.blockquote:after {
   height: 8px;
+  right: -8px;
   background-image: -webkit-linear-gradient(left, #1bc4b9 25%, rgba(219, 0, 109, 0.6), transparent);
   background-image: -moz-linear-gradient(left, #1bc4b9 25%, rgba(219, 0, 109, 0.6), transparent);
   background-image: -o-linear-gradient(left, #1bc4b9 25%, rgba(219, 0, 109, 0.6), transparent);

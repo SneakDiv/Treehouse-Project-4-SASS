@@ -70,7 +70,7 @@ padding: 0 em(16px);
 }
 
 
-//Links
+//Links base styles
 
 %link-deflt {
 	text-decoration: none;
@@ -82,11 +82,11 @@ padding: 0 em(16px);
 	color: $electric-blue;
 }
 
-//Buttons
+//Buttons base styles
 
 %btn {
 	margin: em(7px) auto;
-	padding: em(15px,30px);
+	padding: em(20px,30px);
 	border: 0;
 	border-radius: $br-rad;
 	width: 100%;
@@ -98,7 +98,7 @@ padding: 0 em(16px);
 	}
 }
 
-
+//Image base styles
 %img {
 	display: block;
 	padding: em(5px);
@@ -106,4 +106,11 @@ padding: 0 em(16px);
 	margin-bottom: em(24px);
 	max-width: 100%;
 	height: auto;
+}
+
+//Pseudo elements base styles
+%pseudo {
+ content: "";
+ display: block;
+ position: absolute;
 }

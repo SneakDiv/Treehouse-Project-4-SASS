@@ -13,7 +13,7 @@
 
 [class^="btn--"] {
  @extend %btn;
- @include text-shdo($blur:0, $col: rgba($black , .8) );
+ @include text-shdo($blur:0, $col: color-shade(black, light) );
 
 }
 

@@ -13,12 +13,12 @@
 @mixin bg-colors($map) {
 @each $theme, $color in $map {
 	&--#{$theme} {
-		background-color: $color;
+		background: $color;
+		background: linear-gradient(color-shade(black,light), $color 85%, color-shade(black, light) )
 		
 	}
   }
 	
-	@content;
 }
 
 
@@ -70,6 +70,21 @@
 	background-image: -o-linear-gradient(transparent,rgba($lipstick, .6) 25%, $electric-blue );
 	background-image: linear-gradient(transparent,rgba($lipstick, .6)  25%, $electric-blue );
 
+}
+
+
+//PSEUDO ELEMENT
+
+@mixin pseu-el ($el, $el-w:null, $el-h:null){
+	&:#{$el} {
+		@extend %pseudo;
+		width: $el-w;
+		height: $el-h;
+		@content;
+
+	}
+	 
+	  
 }
 
 
