@@ -10,12 +10,20 @@
 	margin: em(50px) auto;
 	max-width: em(1400px);
 	
+	
 }
 
 
-
-[class*="grid__col--"].theme__colors {
-	@include bg-colors($grid-bg-colrs);
-    color: $lipstick;
-}
-
+.theme__colors.grid__col {
+	
+	
+	@for $i from 1 through 12 {
+	  
+	  &--#{$i} {
+		
+		background-color: map-get($grid-bg-colrs, $i);
+		
+	  }
+	}
+  }
+  

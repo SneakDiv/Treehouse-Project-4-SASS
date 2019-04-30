@@ -22,6 +22,21 @@
 }
 
 
+
+//Grid Background Colours
+//@mixin cols-bg($col-colour) {
+//	$col-val: length($col-colour);
+//	
+//	
+//	@for $i from 1 through $col-val {
+//	  .grid__col--#{nth($col-colour,$i)} {
+//		background-color: linear-gradient(color-shade(black,//light), adjust-hue(#CE2380, $i * 10), color-shade//(black, light) );
+//		box-shadow: inset 2px 2px 4px #324A51;
+//	  }
+//	}
+//	
+//	}
+
 //SHADOWS
 
 //Text Shadow

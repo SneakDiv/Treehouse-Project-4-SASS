@@ -55,13 +55,13 @@ $color-shades: (
 
 //Grid Colours
 //COLORS
-$cerise                 :#CE2380;
-$geyser                 :#D6DFE0;
-$robins-egg-blue        :#07DAC0;
-$ragoon-green           :#171810;
-$zinnwaldite            :#EAC5B0;
-$golden-fizz            :#F9F940;
+$malibu                 :#47E3FF;
 $lavender-magenta       :#EC8FD0;
+$dodger-blue            :#4787ff;
+$coral                  :#ff8247;
+$robins-egg-blue        :#07DAC0;
+$electric-violet        :#6347ff;
+$golden-fizz            :#F9F940;
 $bright-turquoise       :#04D4F0;
 $cameo                  :#d8bc9a;
 //END COLORS
@@ -92,19 +92,19 @@ info     : $studio,
 //GRID Col Colours
 
 $grid-bg-colrs: (
-  grid__col--2    : $cerise,
-  grid__col--3    : $geyser,
-  grid__col--4    : $robins-egg-blue,
-  grid__col--5    : $robins-egg-blue,
-  grid__col--6    :  $ragoon-green,
-  grid__col--7    :  $zinnwaldite,
-  grid__col--8    :  $zinnwaldite,
-  grid__col--9    :  $golden-fizz,
-  grid__col--10   :  $lavender-magenta,
-  grid__col--11   :  $bright-turquoise,
-  grid__col--12   :  $cameo,
-    
-);
+  1    : $coral,
+  2    : $dodger-blue,
+  3    : $robins-egg-blue,
+  4    : $electric-violet,
+  5    : $lavender-magenta,
+  6    : $malibu,
+  7    : $bright-turquoise,
+  8    : $cameo,
+  9    : $lipstick,
+ 10    : $japanese-laurel,
+ 11    : $studio,
+ 12    : $pumpkin,
+  );
 
 
 
@@ -127,3 +127,5 @@ $brkpoint-sm            :1px;
 $brkpoint-md            :768px;
 $brkpoint-lg            :1024px;
 $brkpoint-xlg           :1400px;
+
+
