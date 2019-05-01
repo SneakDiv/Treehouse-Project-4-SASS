@@ -21,8 +21,8 @@
 	  
 	  &--#{$i} {
 		
-		background-color: map-get($grid-bg-colrs, $i);
-		
+			background: linear-gradient(color-shade(black,light), map-get(
+				$grid-bg-colrs, $i), color-shade(black, light) );		
 	  }
 	}
   }
