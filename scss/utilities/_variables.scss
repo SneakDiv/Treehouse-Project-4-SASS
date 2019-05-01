@@ -94,16 +94,16 @@ info     : $studio,
 $grid-bg-colrs: (
   1    : $coral,
   2    : $dodger-blue,
-  3    : $robins-egg-blue,
-  4    : $electric-violet,
-  5    : $lavender-magenta,
-  6    : $malibu,
-  7    : $bright-turquoise,
-  8    : $cameo,
+  3    : $electric-violet,
+  4    : $robins-egg-blue,
+  5    : $pumpkin,
+  6    : $lavender-magenta,
+  7    : $lipstick,
+  8    : $golden-fizz,
   9    : $lipstick,
  10    : $japanese-laurel,
  11    : $studio,
- 12    : $pumpkin,
+ 12    : $malibu,
   );
 
 
@@ -121,6 +121,17 @@ $path-img               : '../img';
 
 //Border Radius
 $br-rad                 : 0.25em;
+
+
+//GRID
+// Grid Container
+
+$g-col-width         : 65px;
+$g-gutter-width      : 30px; //in other words margins : )
+$g-col-count         : 12;   // Number of columns 
+$g-cont-max-w        : 1350px;
+
+//
 
 //Breakpoints
 $brkpoint-sm            :1px;

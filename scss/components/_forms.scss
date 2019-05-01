@@ -8,12 +8,20 @@
 	@extend %pad-all;
 
 
-	
+	.img {
+		@include m(avatar) {
+			margin-top: em(30px);
+		}
+	}
 
-	@include m(label){
+
+
+	@include e(label){
 		display: block;
 		margin-bottom: em(30px);
-		
+	  @include m(hidden) {
+		  visibility: hidden;
+	  }
 		
 	}
 
