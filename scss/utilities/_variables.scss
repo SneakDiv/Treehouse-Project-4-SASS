@@ -134,9 +134,19 @@ $g-cont-max-w        : 1350px;
 //
 
 //Breakpoints
-$brkpoint-sm            :1px;
+$brkpoint-sm            :411px;
 $brkpoint-md            :768px;
 $brkpoint-lg            :1024px;
 $brkpoint-xlg           :1400px;
 
 
+//Breakpoint Map
+
+$breakpoints: (
+
+sm   :  $brkpoint-sm,
+med  :  $brkpoint-md,
+lg   :  $brkpoint-lg,
+x-lg :  $brkpoint-xlg,
+
+)

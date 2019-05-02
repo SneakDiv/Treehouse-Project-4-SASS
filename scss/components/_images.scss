@@ -4,6 +4,12 @@
 
 
 .img {
+
+	@include m(logo) {
+	  @extend %img;
+	  @extend %marg-cen;
+
+	}
 	
 	@include m(avatar){
 		@extend %img;

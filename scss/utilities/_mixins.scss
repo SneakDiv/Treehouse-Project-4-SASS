@@ -132,3 +132,22 @@
 	}
 	
 }
+
+
+@mixin mq($break) {
+  $brk-value : map-get($breakpoints, $break);
+  $med       : map-get($breakpoints, "med");
+
+    @if $brk-value < $med {
+		@media (max-width: $brk-value ){
+			@content;
+		}
+		
+	}
+
+	@else {
+		@media (min-width: $brk-value) {
+			@content;
+		}
+	}
+}
