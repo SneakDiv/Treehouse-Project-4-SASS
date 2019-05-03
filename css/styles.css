@@ -686,6 +686,10 @@ p {
   background-color: #db006d;
 }
 
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
 .container .grid__row {
   display: flex;
   flex-direction: column;
@@ -764,8 +768,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #ff8247, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--1 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 .theme__colors.grid__col--2 {
   margin: 0.4375em auto;
@@ -774,8 +815,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #4787ff, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--2 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 .theme__colors.grid__col--3 {
   margin: 0.4375em auto;
@@ -784,8 +862,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #6347ff, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--3 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 .theme__colors.grid__col--4 {
   margin: 0.4375em auto;
@@ -794,8 +909,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #07DAC0, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--4 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 .theme__colors.grid__col--5 {
   margin: 0.4375em auto;
@@ -804,8 +956,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #ff7823, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--5 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 .theme__colors.grid__col--6 {
   margin: 0.4375em auto;
@@ -814,8 +1003,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #EC8FD0, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--6 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 .theme__colors.grid__col--7 {
   margin: 0.4375em auto;
@@ -824,8 +1050,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #db006d, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--7 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 .theme__colors.grid__col--8 {
   margin: 0.4375em auto;
@@ -834,8 +1097,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #F9F940, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--8 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 .theme__colors.grid__col--9 {
   margin: 0.4375em auto;
@@ -844,8 +1144,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #db006d, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--9 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 .theme__colors.grid__col--10 {
   margin: 0.4375em auto;
@@ -854,8 +1191,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #009700, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--10 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 .theme__colors.grid__col--11 {
   margin: 0.4375em auto;
@@ -864,8 +1238,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #8859b1, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--11 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 .theme__colors.grid__col--12 {
   margin: 0.4375em auto;
@@ -874,8 +1285,45 @@ p {
   border-radius: 0.25em;
   color: #FFF;
   font-size: 1.125em;
+  width: 100%;
   background: linear-gradient(#252525, #47E3FF, #252525);
   text-shadow: 0.5px 0.5px #0b0b0b;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--1 {
+  width: 5.3278688525%;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--2 {
+  width: 13.9344262295%;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--3 {
+  width: 22.5409836066%;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--4 {
+  width: 31.1475409836%;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--5 {
+  width: 39.7540983607%;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--6 {
+  width: 48.3606557377%;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--7 {
+  width: 56.9672131148%;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--8 {
+  width: 65.5737704918%;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--9 {
+  width: 74.1803278689%;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--10 {
+  width: 82.7868852459%;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--11 {
+  width: 91.393442623%;
+}
+.theme__colors.grid__col--12 .theme__colors.grid__col--12 {
+  width: 100%;
 }
 
 @media (min-width: 1300px) {

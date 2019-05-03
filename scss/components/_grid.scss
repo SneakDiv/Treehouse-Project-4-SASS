@@ -5,6 +5,9 @@
 
 
 .container {
+
+	max-width: 1450px;
+	margin: 0 auto;
      .grid__row {
 	      @extend %pad-sides;
 	      @include flexy($dir: column);
@@ -106,10 +109,22 @@
 	    border-radius: $br-rad;
 	    color: $white;
 			font-size: em(18px);
-			//width:100%;
+			width:100%;
 			background: linear-gradient(color-shade(black,light), map-get(
 			$grid-bg-colrs, $i), color-shade(black, light) );	
 			@include text-shdo();	
+
+
+			@for $i from 1 through $g-col-count {
+				 $context: grid-context($g-col-width, $g-col-count, $g-gutter-width);
+				$target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+
+
+				      .theme__colors.grid__col--#{$i} {
+				       width: percentage($target /$context);
+
+				       }   
+			   }
 	  
 		}
 	
@@ -117,16 +132,7 @@
 	
 	        	  
 								
-					        			 //@for $i from 1 through $g-col-count {
-	                       // $context: grid-context($g-col-width, $g-col-count, $g-gutter-width);
-		                     // $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
- //
-	 //
-	                       //      .theme__colors.grid__col--#{$i} {
-		                     //       width: percentage($target /$context);
- //
-	                       //       }   
-	                       //   }
+					        			 //
     
 		   	               
 			
