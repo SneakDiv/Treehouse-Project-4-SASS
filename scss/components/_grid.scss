@@ -4,52 +4,137 @@
 	
 
 
+.container {
+     .grid__row {
+	      @extend %pad-sides;
+	      @include flexy($dir: column);
+	      margin: em(50px) auto;
+	      width: 98%;
+	      max-width: em(1400px);
+      
+	      @include mq("med") {
 
-.grid__row {
-	@extend %pad-sides;
-	margin: em(50px) auto;
-	width: 98%;
-	max-width: em(1400px);
-	@include flexy ($dir: column);
-	
+		      @include flexy($dir:row, $wrap:wrap, $just:center);
+
+			}
+			
+
+			@include mq("lg") {
+
+				@include flexy($just:space-between);
+
+		}
+
 }
 
 
+@include mq("med") {
 
+	.grid__row:first-child {
+		@include flexy($dir:column);
+	}
+
+	.grid__row:nth-of-type(4) {
+		@include flexy($just:space-around);
+	}
+
+}
+
+
+@include mq("lg") {
+
+	.grid__row:first-child {
+		@include flexy($dir:row, $just:space-between);
+	}
+
+
+
+}
+
+}
  
 
-.theme__colors.grid__col {
 	
+	.grid__col {
+	
+		@include m(4){
+			@include mq("lg"){
+				flex: 1 em(266px);
+				align-self: center;
+			}
+		}
+		@include m(8){
+			@include mq("lg"){
+				flex: 4;
+				margin-right: em(30px);
+			}
+		}
+
+
+		@include m(8){
+			@include mq("x-lg"){
+				flex: 5;
+				margin-right: em(30px);
+			}
+		}
+	
+
+		@include m(6){
+			@include mq("med"){
+				margin: auto;
+			}
+		}
+			 
+		
+		@include m(12){
+			@include mq("med"){
+				@include flexy($dir:row, $wrap:wrap,  $just: space-around);
+			}
+		}
+	}
+
+
+
+.theme__colors.grid__col {
 	
 	@for $i from 1 through 12 {
 	  
 	  &--#{$i} {
-		
+			margin: em(7px) auto;
+	    padding: em(20px,30px);
+	    border: 0;
+	    border-radius: $br-rad;
+	    color: $white;
+			font-size: em(18px);
+			//width:100%;
 			background: linear-gradient(color-shade(black,light), map-get(
-				$grid-bg-colrs, $i), color-shade(black, light) );	
-				@extend %btn;
-				@include text-shdo();	
-	  }
-	}
-  }
+			$grid-bg-colrs, $i), color-shade(black, light) );	
+			@include text-shdo();	
+	  
+		}
 	
+	       
 	
-.grid__col,
-.theme__colors.grid__col {
-	@include flexy($dir: column);
+	        	  
+								
+					        			 //@for $i from 1 through $g-col-count {
+	                       // $context: grid-context($g-col-width, $g-col-count, $g-gutter-width);
+		                     // $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+ //
+	 //
+	                       //      .theme__colors.grid__col--#{$i} {
+		                     //       width: percentage($target /$context);
+ //
+	                       //       }   
+	                       //   }
+    
+		   	               
+			
+			                                  // @include m(6){
+				                                //margin: em(8px) em(4px);
+				                                 //flex: 1 100px;
+			                                   //}
+		     }
+		}
+	
 
-	@for $i from 1 through $g-col-count {
-	 
-		$context: grid-context($g-col-width, $g-col-count, $g-gutter-width);
-		$target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
- 
-	 .grid__col--#{$i},
-	 .theme__colors.grid__col--#{$i} {
-		 width: percentage($target /$context);
- 
-	 }   
- 
- 
- 
- }
-}

@@ -13,7 +13,7 @@
 		border-radius: em(10px); 
 		 
 	  a {
-		@include text(em(20px), $weight: $font-weight--medium , $color: $oxford-blue); 
+		@include text($size:em(20px), $weight: $font-weight--medium , $color: $oxford-blue); 
 		 @extend %nav-item-link;
 		 @include text-shdo($col: rgba($black, .5) );
 		 
@@ -21,18 +21,33 @@
 		  &:hover {
 			 @extend %nav-item-hov;
 			 @extend %link-deflt;
-		  }
-		 
+			}
+			
+				 
 		}
 		
 		@include mq("med"){
 			display: inline-block;
 			border-radius: em(5px);
+			//@include text($size:em(20.5px));
 		}
+
+
+		@include mq("lg"){
+
+			@include text(em(21px));
+		}
+
+		
 	}
+
+
 
 	@include mq("med"){
 		@include flexy($dir:row, $just:space-between);
 	}
+	
+	
+
 }
 
