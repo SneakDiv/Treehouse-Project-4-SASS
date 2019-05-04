@@ -804,6 +804,7 @@ p {
 @media (min-width: 768px) {
   .theme__colors.grid__col--3 {
     width: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
@@ -854,6 +855,7 @@ p {
 @media (min-width: 768px) {
   .theme__colors.grid__col--4 {
     width: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
@@ -904,6 +906,7 @@ p {
 @media (min-width: 768px) {
   .theme__colors.grid__col--5 {
     width: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
@@ -954,6 +957,7 @@ p {
 @media (min-width: 768px) {
   .theme__colors.grid__col--6 {
     width: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
@@ -1004,6 +1008,7 @@ p {
 @media (min-width: 768px) {
   .theme__colors.grid__col--7 {
     width: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
@@ -1054,6 +1059,7 @@ p {
 @media (min-width: 768px) {
   .theme__colors.grid__col--8 {
     width: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
@@ -1104,6 +1110,7 @@ p {
 @media (min-width: 768px) {
   .theme__colors.grid__col--9 {
     width: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
@@ -1154,6 +1161,7 @@ p {
 @media (min-width: 768px) {
   .theme__colors.grid__col--10 {
     width: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
@@ -1204,6 +1212,7 @@ p {
 @media (min-width: 768px) {
   .theme__colors.grid__col--11 {
     width: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
@@ -1254,6 +1263,7 @@ p {
 @media (min-width: 768px) {
   .theme__colors.grid__col--12 {
     width: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
