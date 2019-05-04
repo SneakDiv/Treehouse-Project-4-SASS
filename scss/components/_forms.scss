@@ -6,12 +6,24 @@
 	@include br-default($colu:rgba($lipstick, 0.2));
 	@include box-shdo($in:inset, $col:rgba($lipstick, 0.2));
 	@extend %pad-all;
-
+	@extend %marg-cen;
+	width: 90%;
+	
 
 	.img {
 		@include m(avatar) {
 			margin-top: em(30px);
+
+			@include mq(lg)  {
+				height: em(190px);
+				width:  em(190px);
+				margin-top: em(20px);
+
+				
+		   }
 		}
+    
+
 	}
 
 
@@ -47,10 +59,26 @@
 	    
 	}
 
-
+    
 	    .btn  {
+				@include m(default) {
 		@extend %btn;
 		background-color: $lipstick;
+		width: 100%;
+	}
+
+}
+
+
+  @include mq("med"){
+		width: 450px;
+		
+	}
+
+
+	@include mq("lg"){
+		width: 400px;
+		
 	}
 
 

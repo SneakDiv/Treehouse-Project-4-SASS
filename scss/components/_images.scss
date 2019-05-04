@@ -9,11 +9,21 @@
 	  @extend %img;
 	  @extend %marg-cen;
 
+	  @include mq("lg"){
+
+		width: em(175px);
+		height: em(83px);
+		margin-top: em(18px);
+		
+	}
+
 
 	  @include mq("x-lg"){
 
 		width: em(195px);
 		height: em(113px);
+		margin-top: em(8px);
+		
 	}
 
 	}

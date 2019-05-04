@@ -130,13 +130,13 @@ p {
 	   }
 
 	   @include mq("lg"){
-		font-size: em(24px);
-	line-height: (32px/24px);
+		font-size: em(26px);
+	line-height: (34px/26px);
 	   }
 
 	   @include mq("x-lg"){
-		font-size: em(25px);
-	line-height: (33px/25px);
+		font-size: em(28px);
+	line-height: (36px/28px);
 	   }
 }
 

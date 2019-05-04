@@ -1,18 +1,23 @@
 // ==========================================================================
 // Nav
 // ==========================================================================
-.nav {
+
+nav {
+padding: 1em;
+margin-bottom: em(5px);
+  .nav {
 	margin-top: em(30px);
 	margin-bottom: em(40px);
 	
-@include flexy($dir:column);
+    @include flexy($dir:column);
 
-  @include e(item) {
+       @include e(item) {
 		
-	  @extend %nav-item-dis;
-		border-radius: em(10px); 
+	      @extend %nav-item-dis;
+		  border-radius: em(10px); 
+		
 		 
-	  a {
+	       a {
 		@include text($size:em(20px), $weight: $font-weight--medium , $color: $oxford-blue); 
 		 @extend %nav-item-link;
 		 @include text-shdo($col: rgba($black, .5) );
@@ -21,21 +26,28 @@
 		  &:hover {
 			 @extend %nav-item-hov;
 			 @extend %link-deflt;
+			 background:rgba($color-primary, 0.7);
+			 @include grad($color1:$white 20%, $color2: rgba($color-primary, 0.7));
 			}
 			
 				 
-		}
+	     	}
 		
 		@include mq("med"){
 			display: inline-block;
 			border-radius: em(5px);
-			//@include text($size:em(20.5px));
+			@include text($size:em(14px));
 		}
 
 
 		@include mq("lg"){
 
-			@include text(em(21px));
+			@include text(em(18px));
+		}
+
+		@include mq("x-lg"){
+
+			@include text(em(22px));
 		}
 
 		
@@ -49,5 +61,5 @@
 	
 	
 
-}
-
+   }
+} 
