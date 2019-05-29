@@ -48,20 +48,20 @@ $pumpkin                : #ff7823; //orange
 $color-shades: (
       grey:(
 
-    xx-light:    ligthen($grey, 43%),
-     x-light:    ligthen($grey, 35%),
-     light  :    ligthen($grey, 12%),
-     base   :    $grey,
-     dark   :    darken($grey, 8%),
-     x-dark :    darken($grey, 16%),
+       xx-light:    ligthen($grey, 43%),
+        x-light:    ligthen($grey, 35%),
+        light  :    ligthen($grey, 12%),
+        base   :    $grey,
+        dark   :    darken($grey, 8%),
+        x-dark :    darken($grey, 16%),
 
     ),
 
     black:(
 
-    light:   lighten($black, 10%),
-    base :   $black,  
-    dark :   darken($black, 10%),
+        light:   lighten($black, 10%),
+        base :   $black,  
+        dark :   darken($black, 10%),
     ),
 );
 
@@ -79,11 +79,11 @@ $color-accent           : $lipstick;      //pink
 
 // BUTTON Colours
 $btn-colors: ( 
-default  : $electric-blue,
-success  : rgba($japanese-laurel, 0.5),
-error    : $red,
-warning  : rgba($pumpkin, 0.8),
-info     : $studio, 
+  success  : rgba($japanese-laurel, 0.5),
+  error    : $red,
+  warning  : rgba($pumpkin, 0.8),
+  info     : $studio, 
+  default  : $electric-blue,
 );
 
 
@@ -92,18 +92,18 @@ info     : $studio,
 //GRID Col Colours
 
 $grid-bg-colrs: (
-  1    : $coral,
-  2    : $dodger-blue,
-  3    : $electric-violet,
-  4    : $robins-egg-blue,
-  5    : $pumpkin,
-  6    : $lavender-magenta,
-  7    : $lipstick,
-  8    : $golden-fizz,
-  9    : $lipstick,
- 10    : $japanese-laurel,
- 11    : $studio,
- 12    : $malibu,
+      1    : $coral,
+      2    : $dodger-blue,
+      3    : $electric-violet,
+      4    : $robins-egg-blue,
+      5    : $pumpkin,
+      6    : $lavender-magenta,
+      7    : $lipstick,
+      8    : $golden-fizz,
+      9    : $lipstick,
+     10    : $japanese-laurel,
+     11    : $studio,
+     12    : $malibu,
   );
 
 
@@ -131,7 +131,7 @@ $g-gutter-width      : 40px; //in other words margins : )
 $g-col-count         : 12;   // Number of columns 
 $g-cont-max-w        : 1350px;
 
-//
+
 
 //Breakpoints
 $brkpoint-sm            :411px;

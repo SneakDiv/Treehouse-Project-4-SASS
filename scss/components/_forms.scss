@@ -7,7 +7,7 @@
 	@include box-shdo($in:inset, $col:rgba($lipstick, 0.2));
 	@extend %pad-all;
 	@extend %marg-cen;
-	width: 90%;
+	width: 99%;
 	
 
 	.img {
@@ -31,9 +31,10 @@
 	@include e(label){
 		display: block;
 		margin-bottom: em(30px);
-	  @include m(hidden) {
-		  visibility: hidden;
-	  }
+		
+		  @include m(hidden) {
+		    visibility: hidden;
+	   }
 		
 	}
 
@@ -52,22 +53,22 @@
 		transition: background-color, border-bottom;
 
 
-		&:focus {
-			@include grad($color1:$white 50%, $color2: rgba($lipstick, 0.2));
-			border-bottom: 6px solid $lipstick;
-		}
+		    &:focus {
+		    	@include grad($color1:$white 50%, $color2: rgba($lipstick, 0.2));
+		    	border-bottom: 6px solid $lipstick;
+		    }
 	    
 	}
 
     
 	    .btn  {
 				@include m(default) {
-		@extend %btn;
-		background-color: $lipstick;
-		width: 100%;
-	}
+	       	@extend %btn;
+	       	background-color: $lipstick;
+	       	width: 100%;
+	    }
 
-}
+   }
 
 
   @include mq("med"){

@@ -27,17 +27,17 @@
 	@include text(em(30px), (36px/30px), $color: $color-primary);
 	@include text-shdo($blur:0, $col: color-shade(black, light) );
 
-	@include mq("med"){
-		@include text(em(34px));
-	   }
+	   @include mq("med"){
+		  @include text(em(34px));
+	    }
 
 	   @include mq("lg"){
-		@include text(em(35px));
-	   }
+		  @include text(em(35px));
+	    }
 
 	   @include mq("x-lg"){
-		@include text(em(36px));
-	   }
+		  @include text(em(36px));
+	    }
 }
 
 
@@ -46,18 +46,18 @@
 	@extend %h-sec;
 	@include text(em(20px), $color: $oxford-blue);
 	@include text-shdo($blur:0, $col: color-shade(black, light) );
-	padding-left: em(15px);
-
-	@include mq("med"){
-		@include text(em(22px));
+	
+ 
+	@include mq("med") {
+		  @include text(em(22px));
 	   }
 
-	   @include mq("lg"){
-		@include text(em(23px));
+	   @include mq("lg") {
+		  @include text(em(23px));
 	   }
 
-	   @include mq("med"){
-		@include text(em(24px));
+	   @include mq("med") {
+		  @include text(em(24px));
 	   }
 }
 
@@ -74,97 +74,74 @@
 
 
 p {
-	@include mq("med"){
-		@include text($size: em(18px));
+	   @include mq("med"){
+		   @include text($size: em(18px));
 		 
-	   }
+	     }
 
 	   @include mq("lg"){
-		@include text($size: em(19px));
+		   @include text($size: em(19px));
 		 
-	   }
+	     }
 
 	   @include mq("x-lg"){
-		@include text($size: em(20px));
+		   @include text($size: em(20px));
 		 
-	   }
+	     }
 }
 
 .blockquote {
 	position: relative;
 	padding: 1em;
-	font-size: em(22px);
+	font-size: em(20px);
 	line-height: (30px/22px);
 	color: color-shade(grey, x-dark);
 	font-style: italic;
-	
-	@include pseu-el(before){
-		bottom: -8px;
-		left:   -8px;
-		
-	}
-
-	@include pseu-el(after){
-		bottom: -8px;
-		left:   -8px;
-	
-	}
-
-	@include pseu-el(before, $el-w:8px) {
-		top: -8px;
-		@include pseudo-img-top;
-		
-	}
-
-	
-
-	@include pseu-el(after, $el-h:8px) {
-		right: -8px;
-		@include pseudo-img-right;
-	}
-
-
-	@include mq("med"){
-		font-size: em(23px);
-	line-height: (31px/23px);
+	 
+	   @include pseu-el(before){
+	   	bottom: -8px;
+	   	left:   -8px;
+	   	
 	   }
-
-	   @include mq("lg"){
-		font-size: em(26px);
-	line-height: (34px/26px);
+   
+	   @include pseu-el(after){
+	   	bottom: -8px;
+	   	left:   -8px;
+	   
 	   }
-
-	   @include mq("x-lg"){
-		font-size: em(28px);
-	line-height: (36px/28px);
+   
+	   @include pseu-el(before, $el-w:8px) {
+	   	top: -8px;
+	   	@include pseudo-img-top;
+	   	
 	   }
-}
+   
+	   
+   
+	   @include pseu-el(after, $el-h:8px) {
+	   	right: -8px;
+	   	@include pseudo-img-right;
+	   }
+   
+   
+	   @include mq("med"){
+	   	  font-size: em(23px);
+	        line-height: (31px/23px);
+	      }
+   
+	      @include mq("lg"){
+	   	  font-size: em(26px);
+	        line-height: (34px/26px);
+	      }
+   
+	      @include mq("x-lg"){
+	   	  font-size: em(28px);
+	        line-height: (36px/28px);
+	      }
+} 
+ 
 
-//.blockquote::before,
-// .blockquote::after {
-// content: "";
-//  position: absolute;
-//  bottom: -8px;
-//	left: -8px;
-//	border: 1px solid red;
-//  }
-
-
- // .blockquote::before {
-//	top: -8px;
-//	width: 8px;
-//	@include pseudo-img-top;
-//	border: 1px solid blue;
-//	
- // }
   
-  //.blockquote::after {
-	//right: -8px;
-  //  height: 8px;
-	//@include pseudo-img-right;
-	//border: 1px solid green;
-	
-	
-  //}
+  
   
 

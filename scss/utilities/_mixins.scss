@@ -11,14 +11,14 @@
 
 //Color Theme
 @mixin bg-colors($map) {
-@each $theme, $color in $map {
-	&--#{$theme} {
-		background: $color;
-		background: linear-gradient(color-shade(black,light), $color 85%, color-shade(black, light) )
-		
-	}
-  }
-	
+   @each $theme, $color in $map {
+   	    &--#{$theme} {
+   	    	background: $color;
+   	    	background: linear-gradient(color-shade(black,light), $color 85%, color-shade(black, light) )
+   	    	
+   	    }
+     }
+   	
 }
 
 //Coloured Grids
@@ -27,28 +27,15 @@
 	@for $i from 2 through $g-col-count {
 		$context: grid-context($g-col-width, $g-col-count, $g-gutter-width);
 	   $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+	   
+	        &--#{$i} {
+		     width: percentage($target /$context );
+	      }   
 
-
-			         &--#{$i} {
-			  width: percentage($target /$context );
-
-			  }   
+			
 	  }
 }
 
-//Grid Background Colours
-//@mixin cols-bg($col-colour) {
-//	$col-val: length($col-colour);
-//	
-//	
-//	@for $i from 1 through $col-val {
-//	  .grid__col--#{nth($col-colour,$i)} {
-//		background-color: linear-gradient(color-shade(black,//light), adjust-hue(#CE2380, $i * 10), color-shade//(black, light) );
-//		box-shadow: inset 2px 2px 4px #324A51;
-//	  }
-//	}
-//	
-//	}
 
 //SHADOWS
 
@@ -59,12 +46,14 @@
 
 //Box Shadow
 @mixin box-shdo($in:null, $hr:0, $vrt:0, $blur:15px, $sphd:null, $col:$black) {
-	box-shadow: $in $hr $vrt $blur $sphd $col;
+	         box-shadow: $in $hr $vrt $blur $sphd $col;
 	}
+
+
 //Gradient
 
 @mixin grad($dir:to bottom, $color1, $color2) {
-	 background: -webkit-linear-gradient($dir, $color1, $color2);
+    background: -webkit-linear-gradient($dir, $color1, $color2);
 	background: -moz-linear-gradient($dir, $color1, $color2);
 	background: -o-linear-gradient($dir, $color1, $color2);
 	background: linear-gradient($dir, $color1, $color2);
@@ -122,10 +111,10 @@
 			 $dir: null,
 			 $wrap: null,
 			 $just: null) {
- display: $disp;
- flex-direction: $dir;
- flex-wrap: $wrap;
- justify-content: $just;
+  display: $disp;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+  justify-content: $just;
 
 }
 
@@ -147,20 +136,22 @@
 }
 
 
+//Media Query 
+
 @mixin mq($break) {
   $brk-value : map-get($breakpoints, $break);
   $med       : map-get($breakpoints, "med");
 
-    @if $brk-value < $med {
-		@media (max-width: $brk-value ){
-			@content;
-		}
-		
-	}
-
-	@else {
-		@media (min-width: $brk-value) {
-			@content;
-		}
-	}
+      @if $brk-value < $med {
+	  	  @media (max-width: $brk-value ){
+	  	  	@content;
+	  	  }
+	  	  
+	  }  
+    
+	  @else {
+	  	  @media (min-width: $brk-value) {
+	  	  	@content;
+	  	  }
+	  }
 }
