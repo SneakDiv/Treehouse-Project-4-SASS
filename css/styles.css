@@ -711,6 +711,12 @@ p {
 @media (min-width: 1024px) {
   .form {
     width: 400px;
+    margin: 9.5625em auto 0;
+  }
+}
+@media (min-width: 1300px) {
+  .form {
+    margin: 3.8125em auto 0;
   }
 }
 
@@ -718,7 +724,8 @@ p {
   max-width: 1450px;
   margin: 0 auto;
 }
-.container .grid__row {
+
+.grid__row {
   display: flex;
   flex-direction: column;
   margin: 3.125em auto;
@@ -726,7 +733,7 @@ p {
   max-width: 87.5em;
 }
 @media (min-width: 768px) {
-  .container .grid__row {
+  .grid__row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -734,36 +741,37 @@ p {
   }
 }
 @media (min-width: 1024px) {
-  .container .grid__row {
+  .grid__row {
     display: flex;
     justify-content: space-between;
   }
 }
+
 @media (min-width: 768px) {
-  .container .grid__row:first-child {
+  .grid__row:first-child {
     display: flex;
     flex-direction: column;
     height: 12.5em;
   }
-  .container .grid__row:nth-of-type(4) {
+
+  .grid__row:nth-of-type(4) {
     display: flex;
     justify-content: space-around;
   }
 }
 @media (min-width: 1024px) {
-  .container .grid__row:first-child {
+  .grid__row:first-child {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 }
 @media (min-width: 1024px) {
-  .container #grid > .grid__row {
+  #grid > .grid__row {
     display: flex;
     justify-content: center;
   }
 }
-
 @media (min-width: 1024px) {
   .grid__col--4 {
     flex: 1 16.625em;
