@@ -55,7 +55,8 @@
 
 		    &:focus {
 		    	@include grad($color1:$white 50%, $color2: rgba($lipstick, 0.2));
-		    	border-bottom: 6px solid $lipstick;
+				border-bottom: 6px solid $lipstick;
+				outline: none;
 		    }
 	    
 	}

@@ -698,6 +698,7 @@ p {
   background: -o-linear-gradient(to bottom, #FFF 50%, rgba(219, 0, 109, 0.2));
   background: linear-gradient(to bottom, #FFF 50%, rgba(219, 0, 109, 0.2));
   border-bottom: 6px solid #db006d;
+  outline: none;
 }
 .form .btn--default {
   background-color: #db006d;
